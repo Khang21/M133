@@ -15,17 +15,36 @@ Ich habe gelernt, wie man mithilfe von "ManagedBean" Daten von einer xhtml Seite
 * Eine textliche Beschreibung
 
 JSF kann man als MVC framework verstehen. Das Model ist Facelet, das View ist xhtml und der Controller ist ManagedBean. 
+Beispiel:
+Der Benutzer will sein Namen auf der 2. Seite anzeigen lassen. 
+So wird der xhtml Code auf der 1. Seite aussehhen:
+```
+<h:inputText value="#{helloManagedBean.lastName}"/>
+<h:commandButton value="Submit" action="seite2.xhtml"/>
+```
+So wird der ManagedBean aussehen: 
+```java
+private String lastName;
+public String getLastName() {
+return lastName;
+}
+public void setLastName(String lastName) {
+this.lastName = lastName;
+}
+```
+So wird der xhtml Code auf der 2. Seite aussehhen:
+```
+Ihr Nachname: <h:outputLabel value="#{helloManagedBean.lastName}"/> 
+```
 
-```
-Console.WriteLine("Hello");
-```
-* Ein deutliches, aussagekräftiges Bild oder eine kommentierte Bildschirm-Aufnahme
-* Ein gut dokumentierter Code-Fetzen
-* Ein Link zu einem *selbst aufgenommenen* youtube-Video oder `.gif`.
+Auf der 1. Seite wird der Benutzer seinen Namen in einem Textfeld eingeben müssen. Danach auf die Submit Link klicken, welches ihn auf der Seite 2 weiterleitet.
+Dazwischen wird das Programm durch die HelloManagedBean Controller laufen. Im Controller wird die obrigen Code durchlaufen. Der Benutzers Name wird im Variable lastName gespeichert.
+Auf der 2. Seite wird die oben gespeicherte Variable wieder mit #{ControllerName.Variable} aufgerufen. 
 
 ## Verifikation
 
-✍️ Erklären Sie kurz und bündig, inwiefern die von Ihnen verwendeten Medien zeigen, was Sie gelernt haben.
+Am kurzen Erklärungstext zum ManagedBean, kann man erkennen, dass ich verstanden habe, wie man Eingaben von einer Seite auf der anderen anzeigen kann. 
+Der Code beinhaltet, die wichtigsten Stellen, zum dies wiederherzustellen.
 
 # Reflektion zum Arbeitsprozess
 
