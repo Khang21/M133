@@ -16,9 +16,9 @@ Ich habe gelernt, wie man mithilfe von "ManagedBean" Daten von einer xhtml Seite
 
 JSF kann man als MVC framework verstehen. Das Model ist Facelet, das View ist xhtml und der Controller ist ManagedBean. 
 
-'''
+```
 Console.WriteLine("Hello");
-'''
+```
 * Ein deutliches, aussagekräftiges Bild oder eine kommentierte Bildschirm-Aufnahme
 * Ein gut dokumentierter Code-Fetzen
 * Ein Link zu einem *selbst aufgenommenen* youtube-Video oder `.gif`.
