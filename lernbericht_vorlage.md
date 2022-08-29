@@ -10,7 +10,6 @@ Ich habe gelernt, wie man mithilfe von "ManagedBean" Daten von einer xhtml Seite
 
 ## Beschreibung
 
-✍️ Verwenden Sie drei verschiedene Medien, um zu zeigen, was Sie gelernt haben. Zum Beispiel:
 
 * Eine textliche Beschreibung
 
