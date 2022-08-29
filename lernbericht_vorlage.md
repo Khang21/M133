@@ -19,7 +19,7 @@ Der Benutzer will sein Namen auf der 2. Seite anzeigen lassen.
 So wird der xhtml Code auf der 1. Seite aussehhen:
 ![image](https://user-images.githubusercontent.com/69575003/187132608-79fcfd37-cb03-4705-a257-1091dbebbefe.png)
 ```
-<h:inputText value="#{helloManagedBean.lastName}"/>
+Ihr Nachname: <h:inputText value="#{helloManagedBean.lastName}"/>
 <h:commandButton value="Submit" action="seite2.xhtml"/>
 ```
 So wird der ManagedBean aussehen: 
