@@ -34,6 +34,7 @@ this.lastName = lastName;
 ```
 So wird der xhtml Code auf der 2. Seite aussehhen:
 ![image](https://user-images.githubusercontent.com/69575003/187132637-e2185d74-79b5-479d-889a-565dadc54a4e.png)
+
 ```
 Ihr Nachname: <h:outputLabel value="#{helloManagedBean.lastName}"/> 
 ```
