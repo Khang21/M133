@@ -33,6 +33,7 @@ this.lastName = lastName;
 }
 ```
 So wird der xhtml Code auf der 2. Seite aussehhen:
+![Schritt2](https://cdn.discordapp.com/attachments/645742577370267648/1013687737041293423/Schritt2.png)
 ```
 Ihr Nachname: <h:outputLabel value="#{helloManagedBean.lastName}"/> 
 ```
