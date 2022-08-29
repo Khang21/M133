@@ -17,7 +17,7 @@ JSF kann man als MVC framework verstehen. Das Model ist Facelet, das View ist xh
 Beispiel:
 Der Benutzer will sein Namen auf der 2. Seite anzeigen lassen. 
 So wird der xhtml Code auf der 1. Seite aussehhen:
-![Schritt1](https://cdn.discordapp.com/attachments/645742577370267648/1013687737431371816/Schritt1.png)
+![image](https://user-images.githubusercontent.com/69575003/187132608-79fcfd37-cb03-4705-a257-1091dbebbefe.png)
 ```
 <h:inputText value="#{helloManagedBean.lastName}"/>
 <h:commandButton value="Submit" action="seite2.xhtml"/>
@@ -33,7 +33,7 @@ this.lastName = lastName;
 }
 ```
 So wird der xhtml Code auf der 2. Seite aussehhen:
-![Schritt2](https://cdn.discordapp.com/attachments/645742577370267648/1013687737041293423/Schritt2.png)
+![image](https://user-images.githubusercontent.com/69575003/187132637-e2185d74-79b5-479d-889a-565dadc54a4e.png)
 ```
 Ihr Nachname: <h:outputLabel value="#{helloManagedBean.lastName}"/> 
 ```
